@@ -14,7 +14,7 @@ export default function HomePage() {
         <div className="bg-black aspect-video mt-[2rem] w-[100%] h-[50vh] rounded-xl overflow-hidden">
           <img
             className="object-cover w-full h-full"
-            src="/img/Vorupør_Edits/Klit_siluette_Mobile.jpg"
+            src="/img/Vorupoer_Edits/Klit_siluette_Mobile.jpg"
             alt="klit ved vesterhavet"
           />
         </div>
