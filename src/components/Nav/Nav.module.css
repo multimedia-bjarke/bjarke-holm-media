@@ -1,0 +1,43 @@
+/* ---------- Navigation Styling ---------- */
+.nav {
+  background-color: var(--green);
+  display: grid;
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+}
+
+@media (min-width: 600px) {
+  .nav {
+    padding: 1em 2em;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  display: inline-block;
+  color: var(--text-color-light);
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 2px solid var(--green); /* Use the --green variable */
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: var(--light-green);
+  color: var(--text-color-dark);
+}
+
+/* Add a color to the active/current link */
+.nav a.active {
+  background-color: var(--light-green);
+  color: var(--green);
+}

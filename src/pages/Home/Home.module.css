@@ -1,0 +1,5 @@
+.paragraph {
+  background-color: var(--green);
+  color: var(--light-grey);
+  padding: 1em;
+}
