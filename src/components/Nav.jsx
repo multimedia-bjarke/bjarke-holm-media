@@ -14,7 +14,7 @@ export default function Nav() {
           <NavLink to="/">Prices</NavLink>
           <NavLink to="/events">Events</NavLink>
           <NavLink to="/about">About</NavLink>
-          <NavLink to="/recommendations">recommendations</NavLink>
+          <NavLink to="/recommendations">Recommendations</NavLink>
         </nav>
 
         <div className="flex gap-3">
