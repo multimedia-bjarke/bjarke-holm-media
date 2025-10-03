@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/react-vite-spa/"}>
+    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/bjarke-holm-media/"}>
       <App />
     </BrowserRouter>
   </StrictMode>

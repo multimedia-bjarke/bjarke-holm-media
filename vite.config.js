@@ -5,12 +5,12 @@ import react from "@vitejs/plugin-react-swc";
 export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
-    base: "/"
+    base: "/",
   };
 
   // Change base path when building for production
   if (command !== "serve") {
-    config.base = "/react-vite-spa/"; // 👈 Replace with your GitHub repository name
+    config.base = "/bjarke-holm-media/"; // 👈 Replace with your GitHub repository name
   }
 
   return config;
