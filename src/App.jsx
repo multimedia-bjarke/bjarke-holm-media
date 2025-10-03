@@ -7,7 +7,7 @@ import ContactPage from "./pages/ContactPage";
 export default function App() {
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />

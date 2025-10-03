@@ -1,9 +1,17 @@
 export default function HomePage() {
-    return (
-        <section className="page">
-            <h1>Home Page</h1>
-            <p>Home is where the heart is 💛</p>
-            <p>Oh My, sounds like a bad movie!</p>
-        </section>
-    );
+  return (
+    <main className="bg- w-[100%] flex justify-self-center px-50">
+      <section className="bg-() w-[100vw] h-[50vh]">
+        <h1>
+          Welcome <br />
+          to my world of visuals
+        </h1>
+
+        <h1>
+          Scroll down to explore <br />
+          my aesthetics
+        </h1>
+      </section>
+    </main>
+  );
 }
